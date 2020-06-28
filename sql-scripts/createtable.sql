@@ -1,0 +1,1 @@
+CREATE TABLE user (    firstname VARCHAR(50),    lastname VARCHAR(50),    age INT,    PRIMARY KEY( firstname, lastname ) );
