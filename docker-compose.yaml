@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.node
-    image: nodejs
+    image: pzfreo/clo-nodejs
     depends_on: 
       - db
     ports: 
@@ -23,6 +23,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.mysql
+      image: pzfreo/clo-mysql
     restart: always
     environment:
       MYSQL_DATABASE: "oxclo"
