@@ -23,7 +23,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.mysql
-      image: pzfreo/clo-mysql
+    image: pzfreo/clo-mysql
     restart: always
     environment:
       MYSQL_DATABASE: "oxclo"
