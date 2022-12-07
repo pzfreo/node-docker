@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/pzfreo/node-docker#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mysql": "^2.18.1"
   }
 }
